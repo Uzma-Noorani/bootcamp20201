@@ -32,6 +32,6 @@ jobs:
       - name: Install surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ uzmanoorani.surge.sh --token ${{secret.surgetoken}}
+        run: surge ./ uzmanoorani.surge.sh --token ${{secrets.surgetoken}}
 
       
